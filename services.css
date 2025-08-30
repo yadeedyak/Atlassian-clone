@@ -1,0 +1,39 @@
+/* .services {
+    display: flex;
+    justify-content: space-around;
+    margin: 1% 15%;
+    
+} */
+
+.services {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+    margin: 1% 15%;
+  justify-content: space-around;
+}
+.services li {
+  text-align: center;
+}
+.img-wrap {
+  position: relative;
+  display: inline-block;
+}
+.img-wrap img {
+  width: 50px;
+  display: block;
+  /* transition: opacity 0.3s ease-in-out; */
+}
+.img-wrap .hover {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.img-wrap:hover .hover {
+  opacity: 1;
+}
+.img-wrap:hover .normal {
+  opacity: 0;
+}
