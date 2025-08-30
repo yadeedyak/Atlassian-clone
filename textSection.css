@@ -1,0 +1,25 @@
+.text-container{
+   align-items: center;
+   height: 300px;
+}
+.text-container>h1 {
+    text-align: center;
+    font-weight: 20;
+    font-size: 80px;
+    margin-bottom: 50px;
+    
+}
+.text-container>a {
+    
+    vertical-align: center;
+    
+    background-color: #1868DB;
+    color: white;
+    text-decoration: none;
+    font-size: 35px;
+    margin-left: 47%;
+    padding: 10px;
+    border-radius: 20px;
+   
+    
+}
