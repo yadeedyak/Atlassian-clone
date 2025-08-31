@@ -1,0 +1,45 @@
+.content-section-container {
+
+    border: solid;
+    margin-left: 12%;
+    border-color: black;
+    max-width: 450px;
+    padding: 1%;
+
+
+}
+.content-section-logo {
+    display: flex;
+    align-items: center;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.jira-class{
+    background-color: #1868DB;
+
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 700;
+    padding: 12px 20px;
+    border-radius: 25px;
+}
+.exploretag {
+    color: #1868DB;
+}
+.lumen-section-container {
+    display: flex;
+    margin: 15% 0%;
+    gap: 20px;
+    padding: 2%;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3); /* x y blur color */
+    border-radius: 20px;
+
+}
