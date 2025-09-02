@@ -1,0 +1,18 @@
+.rova-main-container {
+    height: 1000px;
+}
+.rova-container {
+    height: 500px;
+    background-color: black;
+   
+    padding: 5%;
+    color: white;
+}
+
+.rova {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+    
+}
